@@ -1,0 +1,11 @@
+var kelvin = 273;// today's forecast is 293 K
+console.log(kelvin);
+var celsius = kelvin - 273; // celsius transfer with Kelvin
+let fahrenheit = celsius * (9/5) +32;// transfer F with C
+fahrenheit = Math.floor(fahrenheit);//decimal number of F
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+var celsius = 20;
+var Newton = celsius * (33/100);
+Newton = Math.ceil(Newton);
+console.log(`The temperature is ${Newton} degrees Newton.`);
